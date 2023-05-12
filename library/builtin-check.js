@@ -1,0 +1,1 @@
+export function builtinCheck(e){return process.binding("natives").hasOwnProperty(String(e).replace("node:",""))}export default builtinCheck

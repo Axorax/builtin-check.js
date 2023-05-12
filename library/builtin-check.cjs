@@ -1,0 +1,1 @@
+function builtinCheck(n){return process.binding("natives").hasOwnProperty(String(n).replace("node:",""))}module.exports=builtinCheck
